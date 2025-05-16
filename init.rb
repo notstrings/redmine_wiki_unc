@@ -1,5 +1,5 @@
 require 'redmine'
-require_dependency 'redmine_wiki_unc_hooks'
+require File.expand_path('lib/redmine_wiki_unc_hooks', __dir__)
 
 class UncHelper
   def initialize
